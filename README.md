@@ -4,9 +4,9 @@ This repository contains instructions for building a Docker image thats runs a c
 
 Tilemill allows you to:
 
-*Use existing projects as a starting point 
-*Define styling rules with CartoCSS which define layer colours and visibility
-*Export maps in image format or as a package of raster tiles in mbtiles format
+* Use existing projects as a starting point 
+* Define styling rules with CartoCSS which define layer colours and visibility
+* Export maps in image format or as a package of raster tiles in mbtiles format
 
 More information: https://wiki.openstreetmap.org/wiki/TileMill and https://github.com/tilemill-project/tilemill.
 
