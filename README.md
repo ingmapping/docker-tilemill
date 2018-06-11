@@ -29,7 +29,7 @@ To run you must expose 20008 and 20009 port using -p 20008:20008 -p 20009:20009.
 ```
 docker run --name="docker-tilemill" -p 20008:20008 -p 20009:20009 -d -t ingmapping/tilemill
 ```
-To use your local projects you cant mount your project direcotry using -v argument. How to mount your local ~/Documents/Mapbox in the container in order to work on data from your local filesystem: 
+To use your local projects you cant mount your project directory using -v argument. How to mount your local ~/Documents/Mapbox in the container in order to work on data from your local filesystem: 
 
 ```
 docker run -d --name="docker-tilemill" -p 20008:20008 -p 20009:20009 -v ~/Documents/MapBox/project/:/root/Documents/MapBox/project/ -t ingmapping/tilemill
